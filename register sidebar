@@ -1,0 +1,6 @@
+// See the __() WordPress function for valid values for $text_domain.
+register_sidebar( array(
+    'id'          => 'Shop-tel',
+    'name'        => __( 'Shop-tel', $text_domain ),
+    'description' => __( 'Add shop tel on page.', $text_domain ),
+) );
