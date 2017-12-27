@@ -4,3 +4,7 @@ register_sidebar( array(
     'name'        => __( 'Shop-tel', $text_domain ),
     'description' => __( 'Add shop tel on page.', $text_domain ),
 ) );
+
+_______________________________
+
+<?php dynamic_sidebar( 'Shop-tel' ); ?>
