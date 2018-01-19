@@ -33,3 +33,7 @@ function woocom_linked_products_data_custom_field_save( $post_id ){
     $product_field_type =  $_POST['upsizing_products'];
     update_post_meta( $post_id, '_upsizing_products_ids', $product_field_type );
 }
+
+
+// Use 
+echo get_post_meta( $post->ID, 'my-field-slug', true );
